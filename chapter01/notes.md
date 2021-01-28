@@ -1,24 +1,27 @@
 # Standard Input and Output Objects
 
 input:
-    istream named cin, (standard input)
+    *istream named cin, (standard input)
+
 ouput:
-    ostream named cout, (standard output)
+    *ostream named cout, (standard output)
+
 error and logs:
-    ostream named cerr and clog
-# while
+    *ostream named cerr and clog
+
+### while
 while (condition) 
 {
     do something
 }
 
-# for 
+### for 
 for (int i = 10; i <= 10; i++) 
 {
     do something 
 }
 
-# if
+### if
 if (condition is true)
 {
     execute
@@ -26,7 +29,7 @@ if (condition is true)
     execute this
 }
 
-# class names
+### class names
 to use classes we need three things:
     * What is its name?
     * Where is it defined?
